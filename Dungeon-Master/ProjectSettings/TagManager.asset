@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: RaumHintergrund
+    uniqueID: 914726409
+    locked: 0
+  - name: "Gegenst\xE4nde"
+    uniqueID: 2972562715
+    locked: 0
+  - name: Player
+    uniqueID: 3395590203
+    locked: 0
