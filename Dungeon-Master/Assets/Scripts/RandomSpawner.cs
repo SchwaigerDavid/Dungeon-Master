@@ -1,38 +1,36 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class RandomSpawner : MonoBehaviour      //Script in BETA, noch nicht funktionsfähig!!!!!
+public class RandomSpawner : MonoBehaviour      
 {                                               //Tutorial: https://youtu.be/WGn1zvLSndk
-    public GameObject[] objekte;
-    public Vector3 spawnValues;
-    public float spawnWait;
-    public float spawnMostWait;
-    public float spawnLeastWait;
-    public int startWait;
-    int randEnemy;
+    public GameObject[] elemente;
+    public Vector2 spawnKoordinaten;
+    int zufallsElement;
 
     void Start()
     {
-        
+        waitSpawner();
     }
 
 
     void Update()
     {
-        StartCoroutine( waitSpawner());
+        
     }
 
-    IEnumerator waitSpawner()
+    void waitSpawner()
     {
-    while (true)
-    {
-        randObject= Random.Range (0, objekte.length);
+    
 
-        Vector3 spawnPosition= new Vector3 (Random.Range (-spawnValues.x, spawnValues.x), Random.Range (-spawnValues.y, spawnValues.y));
+        for(int i=0; i< elemente.Length; i++)
+        {
+        zufallsElement= Random.Range (0, elemente.Length);
 
-        Instantiate (objekte[randObject], spawnPosition + transform.TransformPoint (0, 0, 0), gameObject.transform.rotation);
+        Vector3 spawnPosition= new Vector2 (Random.Range (-spawnKoordinaten.x, spawnKoordinaten.x),  Random.Range (-spawnKoordinaten.y, spawnKoordinaten.y));
 
+        Instantiate (elemente[zufallsElement], spawnPosition + transform.TransformPoint (0, 0, 0), gameObject.transform.rotation);
+
+           
+        }
     }
-}
 }
