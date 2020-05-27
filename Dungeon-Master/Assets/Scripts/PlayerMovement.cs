@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D body;
 
     private float x, y;
+    public SpriteRenderer flip;
   
     // Start is called before the first frame update
     void Start()
@@ -21,7 +22,12 @@ public class PlayerMovement : MonoBehaviour
     {
         x = Input.GetAxisRaw("Horizontal");
         y = Input.GetAxisRaw("Vertical");
-
+        if (x > 0 || x == 0) {
+            flip.flipX = false;
+        }
+        else if (x<0) {
+            flip.flipX = true;
+        }
         var moveVector = new Vector3(x, y, 0);
 
         body.MovePosition(new Vector2((transform.position.x + moveVector.x * speed * Time.deltaTime),
