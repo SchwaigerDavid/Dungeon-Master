@@ -8,7 +8,8 @@ public class ButtonInputscript : MonoBehaviour
     public string awnser;
     public Canvas buttons;
     public GameObject win;
-    public GameObject lose; 
+    public GameObject lose;
+    public Animator door;
 
     private bool enter;
 
@@ -51,12 +52,15 @@ public class ButtonInputscript : MonoBehaviour
 
         if (awnser.Equals(code))
         {
-            win.SetActive(true);
+            gameObject.SetActive(false);
+            door.GetComponent<Animator>();
+            door.SetBool("Open",true);
             lose.SetActive(false);
         }
         else {
-
-            win.SetActive(false);
+            door.GetComponent<Animator>();
+            door.SetBool("Open", false);
+            gameObject.SetActive(true);
             lose.SetActive(true);
         }
     }
