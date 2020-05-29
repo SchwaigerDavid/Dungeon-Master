@@ -5,11 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Doortransport : MonoBehaviour
 {
+    public string nextLevel;
+    public string thisLevel;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag.Equals("Player")) {
-            SceneManager.LoadScene("Level2");
-            SceneManager.UnloadScene("Level");
+            SceneManager.LoadScene(nextLevel);
+            SceneManager.UnloadScene(thisLevel);
         }
     }
 }
