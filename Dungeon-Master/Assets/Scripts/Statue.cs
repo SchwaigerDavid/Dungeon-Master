@@ -7,6 +7,7 @@ public class Statue : MonoBehaviour
     public Rigidbody2D force;
     float timeleft = 1.0f;
     bool count = false;// start the countdown
+    public int verification;
     // Start is called before the first frame update
     void Start()
     {
