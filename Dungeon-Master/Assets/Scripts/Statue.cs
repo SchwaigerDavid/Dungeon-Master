@@ -17,23 +17,20 @@ public class Statue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (count) {
-            Debug.Log("start");
-            timeleft -= Time.deltaTime;
-        }
-        if (timeleft<=0) {
+        if (gameObject.GetComponent<FixedJoint2D>().enabled == false) {
             Debug.Log("end");
             force.velocity = Vector3.zero;
             timeleft = 1.0f;
             count = false;
         }
+
     }
-    private void OnCollisionExit2D(Collision2D collision)
+    /*private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.tag.Equals("Player")) {
             Debug.Log("true");
             count = true;
         }
         
-    }
+    }*/
 }

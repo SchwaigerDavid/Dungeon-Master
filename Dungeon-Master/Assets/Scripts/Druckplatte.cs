@@ -15,4 +15,14 @@ public class Druckplatte : MonoBehaviour
             }
         }
     }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag.Equals("Statue"))
+        {
+            if (collision.gameObject.GetComponent<Statue>().verification == verification)
+            {
+                druckcount--;
+            }
+        }
+    }
 }
