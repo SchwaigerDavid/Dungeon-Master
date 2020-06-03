@@ -6,7 +6,6 @@ TagManager:
   tags:
   - "R\xE4tsel"
   - Enter
-  - Statue
   layers:
   - Default
   - TransparentFX
@@ -16,7 +15,7 @@ TagManager:
   - UI
   - 
   - 
-  - Statue
+  - 
   - 
   - 
   - 
@@ -46,9 +45,6 @@ TagManager:
     locked: 0
   - name: RaumHintergrund
     uniqueID: 914726409
-    locked: 0
-  - name: Background
-    uniqueID: 827380013
     locked: 0
   - name: "Gegenst\xE4nde"
     uniqueID: 2972562715
