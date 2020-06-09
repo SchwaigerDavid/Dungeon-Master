@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - "R\xE4tsel"
+  - Enter
+  - Statue
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Statue
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: RaumHintergrund
+    uniqueID: 914726409
+    locked: 0
+  - name: Background
+    uniqueID: 827380013
+    locked: 0
+  - name: "Gegenst\xE4nde"
+    uniqueID: 2972562715
+    locked: 0
+  - name: Player
+    uniqueID: 3395590203
+    locked: 0
