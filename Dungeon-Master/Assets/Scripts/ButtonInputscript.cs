@@ -44,10 +44,10 @@ public class ButtonInputscript : MonoBehaviour
         code += "8"; 
     
     }
-
     public void b9() {
         code += "9";
     }
+
     public void Enter() {
 
         if (awnser.Equals(code))
@@ -57,13 +57,22 @@ public class ButtonInputscript : MonoBehaviour
             door.SetBool("Open",true);
             lose.SetActive(false);
         }
-        else {
+
+        else
+        {
             door.GetComponent<Animator>();
             door.SetBool("Open", false);
             gameObject.SetActive(true);
             lose.SetActive(true);
+
+            //Die Eingabe wird zurückgesetzt
+            code = null;
+
+            Debug.Log("test");
+
         }
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Enter");
@@ -76,6 +85,7 @@ public class ButtonInputscript : MonoBehaviour
             enter = false;
         }
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         Debug.Log("Exit");
@@ -83,6 +93,8 @@ public class ButtonInputscript : MonoBehaviour
         {
             enter = false;
             buttons.enabled = false;
+
+            lose.SetActive(false);
         }
     }
 
@@ -95,9 +107,5 @@ public class ButtonInputscript : MonoBehaviour
             buttons.enabled = true;
 
         }
-
     }
-
-
-
 }

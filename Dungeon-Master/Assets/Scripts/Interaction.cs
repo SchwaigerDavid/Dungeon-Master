@@ -35,6 +35,7 @@ public class Interaction : MonoBehaviour
             }
         }
     }*/
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Enter");

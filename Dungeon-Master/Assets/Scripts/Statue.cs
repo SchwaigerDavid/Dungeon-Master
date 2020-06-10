@@ -18,7 +18,6 @@ public class Statue : MonoBehaviour
     void Update()
     {
         if (gameObject.GetComponent<FixedJoint2D>().enabled == false) {
-            Debug.Log("end");
             force.velocity = Vector3.zero;
             timeleft = 1.0f;
             count = false;
