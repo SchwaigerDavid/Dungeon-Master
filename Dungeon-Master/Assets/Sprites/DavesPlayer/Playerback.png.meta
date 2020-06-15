@@ -1,10 +1,14 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:Dungeon-Master/Assets/Sprites/DavesPlayer/Playerback.png.meta
 guid: 5e95dff2abfcd0242981fbc004a8d185
 =======
 guid: 2de8cb1c6e7c9024aa4007203dd172f1
 >>>>>>> b17d594714d759a18afabfc84ccda106b65567eb:Dungeon-Master/Assets/Sprites/button/button.jpg.meta
+=======
+guid: 5e95dff2abfcd0242981fbc004a8d185
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
 =======
 guid: 5e95dff2abfcd0242981fbc004a8d185
 >>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
@@ -40,7 +44,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     filterMode: -1
+=======
+    filterMode: 0
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
 =======
     filterMode: 0
 >>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
@@ -77,8 +85,11 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
 <<<<<<< HEAD
+<<<<<<< HEAD
     textureCompression: 1
 =======
+=======
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -92,6 +103,9 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
+<<<<<<< HEAD
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
+=======
 >>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
     compressionQuality: 50
     crunchedCompression: 0

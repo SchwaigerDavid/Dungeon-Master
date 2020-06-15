@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD:Dungeon-Master/Assets/Sprites/button/buttonMossy.jpg.meta
 guid: 8cfc234523bf57c4fa786dc09f186723
+=======
+guid: 2de8cb1c6e7c9024aa4007203dd172f1
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb:Dungeon-Master/Assets/Sprites/button/button.jpg.meta
+=======
+guid: 8cfc234523bf57c4fa786dc09f186723
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

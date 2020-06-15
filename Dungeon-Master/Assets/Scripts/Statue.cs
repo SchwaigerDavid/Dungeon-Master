@@ -20,9 +20,12 @@ public class Statue : MonoBehaviour
         if (gameObject.GetComponent<FixedJoint2D>().enabled == false) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Debug.Log("end");
 =======
 >>>>>>> 583bcb5a1999d7010b19c52251be43456fd0fcc8
+=======
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
 =======
 >>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
             force.velocity = Vector3.zero;

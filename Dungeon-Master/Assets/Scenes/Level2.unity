@@ -123,6 +123,7 @@ NavMeshSettings:
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &56387775
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,6 +258,8 @@ CanvasRenderer:
 >>>>>>> 583bcb5a1999d7010b19c52251be43456fd0fcc8
 =======
 >>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
+=======
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
 --- !u!224 &108481714 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7832647316823173900, guid: bd7fec5c027ba1941a820050db2bf0f0,
@@ -365,6 +368,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &182746224
@@ -559,6 +563,8 @@ CanvasRenderer:
   m_CullTransparentMesh: 0
 =======
 >>>>>>> 583bcb5a1999d7010b19c52251be43456fd0fcc8
+=======
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
 =======
 >>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
 --- !u!1 &376622223
@@ -1009,10 +1015,14 @@ PrefabInstance:
       propertyPath: nextLevel
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: Level
 =======
       value: Level3
 >>>>>>> 583bcb5a1999d7010b19c52251be43456fd0fcc8
+=======
+      value: Level3
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
 =======
       value: Level3
 >>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
@@ -1259,6 +1269,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &897437908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1391,6 +1402,8 @@ CanvasRenderer:
   m_CullTransparentMesh: 0
 =======
 >>>>>>> 583bcb5a1999d7010b19c52251be43456fd0fcc8
+=======
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
 =======
 >>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
 --- !u!1001 &993032614
@@ -1555,10 +1568,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1076407594
 =======
 --- !u!1 &1304958739
 >>>>>>> 583bcb5a1999d7010b19c52251be43456fd0fcc8
+=======
+--- !u!1 &1304958739
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
 =======
 --- !u!1 &1304958739
 >>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
@@ -1569,6 +1586,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 1076407597}
@@ -1772,11 +1790,16 @@ GameObject:
   m_Layer: 5
   m_Name: 1
 =======
+=======
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
   - component: {fileID: 1304958740}
   - component: {fileID: 1304958742}
   - component: {fileID: 1304958741}
   m_Layer: 5
   m_Name: 1
+<<<<<<< HEAD
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
+=======
 >>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2505,6 +2528,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1512082526
 GameObject:
   m_ObjectHideFlags: 0
@@ -2603,6 +2627,8 @@ CanvasRenderer:
 >>>>>>> 583bcb5a1999d7010b19c52251be43456fd0fcc8
 =======
 >>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
+=======
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
 --- !u!1 &1513252131
 GameObject:
   m_ObjectHideFlags: 0
@@ -2669,6 +2695,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1522975953
@@ -2803,6 +2830,8 @@ CanvasRenderer:
   m_CullTransparentMesh: 0
 =======
 >>>>>>> 583bcb5a1999d7010b19c52251be43456fd0fcc8
+=======
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
 =======
 >>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
 --- !u!1 &1545489713
