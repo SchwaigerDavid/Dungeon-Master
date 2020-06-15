@@ -44,10 +44,23 @@ public class ButtonInputscript : MonoBehaviour
         code += "8"; 
     
     }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
     public void b9() {
         code += "9";
     }
+=======
+=======
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
+    public void b9() {
+        code += "9";
+    }
+
+<<<<<<< HEAD
+>>>>>>> 583bcb5a1999d7010b19c52251be43456fd0fcc8
+=======
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
     public void Enter() {
 
         if (awnser.Equals(code))
@@ -57,13 +70,43 @@ public class ButtonInputscript : MonoBehaviour
             door.SetBool("Open",true);
             lose.SetActive(false);
         }
+<<<<<<< HEAD
+<<<<<<< HEAD
         else {
+=======
+
+        else
+        {
+>>>>>>> 583bcb5a1999d7010b19c52251be43456fd0fcc8
+=======
+
+        else
+        {
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
             door.GetComponent<Animator>();
             door.SetBool("Open", false);
             gameObject.SetActive(true);
             lose.SetActive(true);
+<<<<<<< HEAD
+<<<<<<< HEAD
         }
     }
+=======
+=======
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
+
+            //Die Eingabe wird zurückgesetzt
+            code = null;
+
+            Debug.Log("test");
+
+        }
+    }
+
+<<<<<<< HEAD
+>>>>>>> 583bcb5a1999d7010b19c52251be43456fd0fcc8
+=======
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Enter");
@@ -76,6 +119,14 @@ public class ButtonInputscript : MonoBehaviour
             enter = false;
         }
     }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 583bcb5a1999d7010b19c52251be43456fd0fcc8
+=======
+
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
     private void OnTriggerExit2D(Collider2D collision)
     {
         Debug.Log("Exit");
@@ -83,6 +134,16 @@ public class ButtonInputscript : MonoBehaviour
         {
             enter = false;
             buttons.enabled = false;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+            lose.SetActive(false);
+>>>>>>> 583bcb5a1999d7010b19c52251be43456fd0fcc8
+=======
+
+            lose.SetActive(false);
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
         }
     }
 
@@ -95,9 +156,17 @@ public class ButtonInputscript : MonoBehaviour
             buttons.enabled = true;
 
         }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
     }
 
 
 
+=======
+    }
+>>>>>>> 583bcb5a1999d7010b19c52251be43456fd0fcc8
+=======
+    }
+>>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
 }
