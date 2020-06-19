@@ -24,21 +24,8 @@ public class Doortransport : MonoBehaviour
 
         yield return new WaitForSeconds(1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         Debug.Log(nextLevel);
 
->>>>>>> 583bcb5a1999d7010b19c52251be43456fd0fcc8
-=======
-        Debug.Log(nextLevel);
-
->>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
-=======
-        Debug.Log(nextLevel);
-
->>>>>>> b17d594714d759a18afabfc84ccda106b65567eb
         SceneManager.LoadScene(nextLevel);
     }
 }
