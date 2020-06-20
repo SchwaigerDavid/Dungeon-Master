@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Interaction : MonoBehaviour
+public class Interactionf : MonoBehaviour
 {
+    public TextMeshProUGUI texts;
+    public Canvas textons;
+    public TextMeshProUGUI Titles;
 
-    public TextMeshProUGUI text;
-    public Canvas texton;
-    public TextMeshProUGUI Title; 
 
+    public string titles;
+    public string inhalts = "placeholder";
 
-    public string title;
-    public string code ="placeholder";
-    private bool enter = false;
+    private bool enters = false;
 
     /*private void OnTriggerStay2D(Collider2D collision)
     {
@@ -40,18 +40,20 @@ public class Interaction : MonoBehaviour
         Debug.Log("Enter");
         if (collision.gameObject.tag == "Player")
         {
-            enter = true;
+            enters = true;
         }
-        else {
-            enter = false;
+        else
+        {
+            enters = false;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         Debug.Log("Exit");
-        if (collision.gameObject.tag=="Player") {
-            enter = false;
-            texton.enabled=false;
+        if (collision.gameObject.tag == "Player")
+        {
+            enters = false;
+            textons.enabled = false;
         }
     }
 
@@ -59,10 +61,17 @@ public class Interaction : MonoBehaviour
 
     void Update()
     {
-        if (enter == true && Input.GetKey(KeyCode.E)) {
-            texton.enabled=true;
-            Title.text = title; 
-            text.text = code;
+        if (enters == true && Input.GetKey(KeyCode.E))
+        {
+            textons.enabled = true;
+            Titles.text = titles;
+            texts.text = inhalts;
+        }
+        if (ButtonInputscript.type == true && gameObject.tag.Equals("Rätsel"))
+        {
+            texts.text = null;
+            texts.text += ButtonInputscript.code;
+            ButtonInputscript.type = false;
         }
     }
 }

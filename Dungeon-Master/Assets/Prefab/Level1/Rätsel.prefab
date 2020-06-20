@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4354979512319609206}
   - component: {fileID: 4354979512319609211}
   - component: {fileID: 928191778}
+  - component: {fileID: 173702261}
   m_Layer: 0
   m_Name: "R\xE4tsel"
   m_TagString: "R\xE4tsel"
@@ -78,7 +79,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1322404581
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 9b12ebcccd7bc2840ab07f50db3f6a4f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -131,7 +132,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 0}
   texton: {fileID: 0}
-  code: 123
+  Title: {fileID: 0}
+  title: Code
+  code: 4
 --- !u!222 &4354979512319609206
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -187,3 +190,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2805519, y: 0.54577255}
   m_EdgeRadius: 0
+--- !u!114 &173702261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4354979512319609201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2728aa00ee96354cb6c886a0a33b0aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 0}
+  texton: {fileID: 0}
+  Title: {fileID: 0}
+  title: Code
+  code: placeholder

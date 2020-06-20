@@ -25,7 +25,7 @@ public class Doortransport : MonoBehaviour
         yield return new WaitForSeconds(1);
 
         Debug.Log(nextLevel);
-
+        ButtonInputscript.code = null;
         SceneManager.LoadScene(nextLevel);
     }
 }

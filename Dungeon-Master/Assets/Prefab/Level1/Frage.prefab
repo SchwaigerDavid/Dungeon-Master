@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 6304699223474683807}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.28, y: 0.28, z: -0.81}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: -1322404581
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: b56dbeb4e26280541b1eeac65feeea49, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -97,11 +97,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2728aa00ee96354cb6c886a0a33b0aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 0}
+  texts: {fileID: 0}
   texton: {fileID: 0}
   Title: {fileID: 0}
   title: Push the Buttons
-  code: Awnser
+  code: Answer
 --- !u!114 &6304699223474683781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8495fbffc6385904f928d3772b9b3d83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  awnser: 4321
+  awnser: 11
   buttons: {fileID: 0}
   win: {fileID: 0}
   lose: {fileID: 0}
@@ -132,18 +132,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.21429536, y: 0.021089435}
+  m_Offset: {x: -0.008856684, y: 0.021089435}
   m_SpriteTilingProperty:
-    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.16}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5885907, y: 0.7406068}
+  m_Size: {x: 0.5303772, y: 0.7406068}
   m_EdgeRadius: 0
 --- !u!61 &6304699223474683777
 BoxCollider2D:
@@ -160,9 +160,9 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -0.031514168, y: -0.00000023841858}
   m_SpriteTilingProperty:
-    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.16}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
