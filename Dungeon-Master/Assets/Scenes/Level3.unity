@@ -5856,9 +5856,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14831343900b1ff4ea0d0a544a3ff9a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts: {fileID: 0}
-  textons: {fileID: 0}
-  Titles: {fileID: 0}
+  texts: {fileID: 1959881956}
+  textons: {fileID: 1959881960}
+  Titles: {fileID: 1959881957}
   titles: Awnser
   inhalts: push the buttosn
 --- !u!1001 &1316960296
