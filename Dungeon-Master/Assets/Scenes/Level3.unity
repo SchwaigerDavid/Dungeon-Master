@@ -4533,6 +4533,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3633932212854777186, guid: 70cfb10f5595ded4cacee2b0c3d06b9c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3633932213368542096, guid: 70cfb10f5595ded4cacee2b0c3d06b9c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.6
+      objectReference: {fileID: 0}
     - target: {fileID: 3633932213368542108, guid: 70cfb10f5595ded4cacee2b0c3d06b9c,
         type: 3}
       propertyPath: m_Color.r
@@ -5120,19 +5130,9 @@ PrefabInstance:
       objectReference: {fileID: 1959881960}
     - target: {fileID: 4354979512319609207, guid: 09356e9ebf6e96645ad4930c29083c4e,
         type: 3}
-      propertyPath: title
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4354979512319609207, guid: 09356e9ebf6e96645ad4930c29083c4e,
-        type: 3}
       propertyPath: Title
       value: 
       objectReference: {fileID: 1959881957}
-    - target: {fileID: 4354979512319609207, guid: 09356e9ebf6e96645ad4930c29083c4e,
-        type: 3}
-      propertyPath: code
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4354979512319609210, guid: 09356e9ebf6e96645ad4930c29083c4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5237,21 +5237,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4354979512319609211, guid: 09356e9ebf6e96645ad4930c29083c4e,
-        type: 3}
-      propertyPath: m_LinearDrag
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 4354979512319609211, guid: 09356e9ebf6e96645ad4930c29083c4e,
-        type: 3}
-      propertyPath: m_Mass
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4354979512319609211, guid: 09356e9ebf6e96645ad4930c29083c4e,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09356e9ebf6e96645ad4930c29083c4e, type: 3}
@@ -5860,7 +5845,7 @@ MonoBehaviour:
   textons: {fileID: 1959881960}
   Titles: {fileID: 1959881957}
   titles: Awnser
-  inhalts: push the buttosn
+  inhalts: push the button
 --- !u!1001 &1316960296
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7218,6 +7203,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1169245775}
+    - target: {fileID: 147305713600388693, guid: 2bc87e4a673638940a1b94ce8e95f9df,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: b2
+      objectReference: {fileID: 0}
+    - target: {fileID: 147305713646671143, guid: 2bc87e4a673638940a1b94ce8e95f9df,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 147305713770833133, guid: 2bc87e4a673638940a1b94ce8e95f9df,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -7248,11 +7243,21 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1169245775}
+    - target: {fileID: 147305715083557992, guid: 2bc87e4a673638940a1b94ce8e95f9df,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: b1
+      objectReference: {fileID: 0}
     - target: {fileID: 147305715163185826, guid: 2bc87e4a673638940a1b94ce8e95f9df,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1169245775}
+    - target: {fileID: 147305715163185826, guid: 2bc87e4a673638940a1b94ce8e95f9df,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: b3
+      objectReference: {fileID: 0}
     - target: {fileID: 147305715238510315, guid: 2bc87e4a673638940a1b94ce8e95f9df,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

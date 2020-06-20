@@ -4385,11 +4385,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: "R\xE4tselCanvas"
       objectReference: {fileID: 0}
-    - target: {fileID: 147305713153655923, guid: 2bc87e4a673638940a1b94ce8e95f9df,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 147305713153655951, guid: 2bc87e4a673638940a1b94ce8e95f9df,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -20,6 +20,7 @@ public class ButtonInputscript : MonoBehaviour
         type = true;
     }
     public void b1() {
+      
         code += "1";
         type = true;
     }

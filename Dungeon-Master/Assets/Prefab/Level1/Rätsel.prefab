@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 4354979512319609206}
   - component: {fileID: 4354979512319609211}
   - component: {fileID: 928191778}
-  - component: {fileID: 173702261}
   m_Layer: 0
   m_Name: "R\xE4tsel"
   m_TagString: "R\xE4tsel"
@@ -133,8 +132,8 @@ MonoBehaviour:
   text: {fileID: 0}
   texton: {fileID: 0}
   Title: {fileID: 0}
-  title: Code
-  code: 4
+  title: 
+  code: 1
 --- !u!222 &4354979512319609206
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -155,15 +154,15 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.5
-  m_LinearDrag: 0
+  m_Mass: 1
+  m_LinearDrag: 50
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 4
 --- !u!61 &928191778
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -190,20 +189,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2805519, y: 0.54577255}
   m_EdgeRadius: 0
---- !u!114 &173702261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4354979512319609201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2728aa00ee96354cb6c886a0a33b0aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: {fileID: 0}
-  texton: {fileID: 0}
-  Title: {fileID: 0}
-  title: Code
-  code: placeholder
